@@ -10,6 +10,16 @@ class Solver extends StatefulWidget {
 class _SolverState extends State<Solver> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text(
+          "Add sudoku input",
+          style: TextStyle(
+            fontSize: 16,
+          ),
+        ),
+        centerTitle: true,
+      ),
+    );
   }
 }
