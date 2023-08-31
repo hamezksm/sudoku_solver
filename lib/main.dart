@@ -15,7 +15,7 @@ void main() {
           secondary: Colors.amber[300],
         ),
       ),
-      home: const Solver(),
+      home: const SudokuApp(),
     ),
   );
 }

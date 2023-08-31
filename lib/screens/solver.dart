@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:sudoku_solver/widgets/grids.dart';
 
-class Solver extends StatelessWidget {
-  const Solver({super.key});
+class SudokuApp extends StatelessWidget {
+  const SudokuApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,8 +16,8 @@ class Solver extends StatelessWidget {
         ),
         centerTitle: true,
       ),
-      body: Center(
-        child: sudokuSolver(),
+      body: const Center(
+        child: SudokuGrid(),
       ),
     );
   }
